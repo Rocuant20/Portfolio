@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-/*...............................topnavigationbar..................................*/
+/*...........................................topnavigationbar..................................*/
 .topnav{
     padding: 1%;
     box-sizing: border-box;
@@ -18,11 +18,24 @@ ul{
 }
 a{
     text-decoration: none;
+    color: rgb(101, 101, 101);
 }
-/*...............................main................................................*/
+/*............................................main................................................*/
+main{
+    display: flex;
+    align-items: center;
+}
+/* .section-first{
+    display: flex;
+    flex-direction: row;
+} */
+.main-items{
+    /* margin-top: 100px; */
+}
 .principal{
     padding-left: 30%;
-    padding-top: 10%;
+    padding-top: 18%;
+    padding-bottom: 25%;
 }
 .holasoy{
     font-size: 2em;
@@ -30,7 +43,7 @@ a{
 }
 .nombre-grande{
     font-size: 3.5em;
-    color: crimson;
+    color: rgb(107, 167, 187);
 }
 .profesion{
     font-size: 1.3em;
@@ -47,7 +60,66 @@ a{
 }
 .link-loquehago{
     display: flex;
-    background-color: crimson;
+    background-color: lightblue;
     padding: 20px;
     border-radius: 10px;
+}
+.iconandroid{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 400px;
+    margin: 0px 100px 0px 0px;
+}
+/*...........................................sección2........................................*/
+.misconocimientos{
+    font-size: 3.5em;
+    padding-bottom: 20px;
+}
+.quote{
+    color: rgb(89, 89, 89);
+}
+.my-knowledge{
+    display: flex;
+    padding-top: 8%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+}
+.contenedoricon{
+    width: 110px;
+    margin: 5% 10%;
+    /* margin-bottom: -15%; */
+    background-color: white;
+    padding: 20%;
+}
+.skillgrid-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.iconohtml{
+    font-size: 110px;
+}
+.iconocss{
+    font-size: 110px;
+}
+.iconosass{
+    font-size: 110px;
+}
+.skillgrid-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 90px; */
+}
+.iconojavascript{
+    font-size: 100px;
+}
+.iconoreact{
+    font-size: 110px;
+}
+.iconogit{
+    font-size: 110px;
 }
