@@ -73,14 +73,15 @@ main{
 /*...........................................sección2........................................*/
 .misconocimientos{
     font-size: 3.5em;
-    padding-bottom: 20px;
+    margin-top: 150px;
+    margin-bottom: 20px;
 }
 .quote{
     color: rgb(89, 89, 89);
 }
 .my-knowledge{
     display: flex;
-    padding-top: 8%;
+    /* margin-top: 80px; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -112,6 +113,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 110px;
     /* padding-top: 90px; */
 }
 .iconojavascript{
@@ -123,3 +125,41 @@ main{
 .iconogit{
     font-size: 110px;
 }
+/*...........................................Quote..............................................*/
+.frase-desmotivaciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(110, 177, 243);
+}
+.secondquote{
+    font-size: 3.5em;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.fraserandom{
+    font-size: 1.2em;
+    color: rgb(34, 34, 34);
+}
+.alguien{
+    font-size: 2.0em;
+    margin: 30px 0px 110px 0px;
+    /* color: rgb(48, 48, 48); */
+}
+/*...............................................MisProyectos.....................................*/
+.misproyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fraseproyecto{
+    margin-bottom: 1500px;
+}
+.contenedorboton{
+    padding: 90px;
+    background-color: rgb(192, 190, 190);
+    border-radius: 5%;
+}
+
