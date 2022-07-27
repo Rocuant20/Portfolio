@@ -205,10 +205,33 @@ main{
 }
 /*.............................................formulario......................................*/
 .section-form{
+    /* display: flex;
+    justify-content: center; */
+    padding: 10%;
+    background-color: rgb(241, 241, 241);
+    font-size: 1.5em;
+}
+.contenedor-form{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 5%;
+    border-radius: 15px;
+}
+.name-surname{
+    display: flex;
+    flex-direction: row;
+}
+.form-info{
+    display: flex;
     flex-direction: column;
+}
+input{
+    padding: 3%;
+    
+}
+.info-nombre{
+    margin-right: 4%;
 }
 
 

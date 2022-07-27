@@ -102,23 +102,42 @@
 
         </div> -->
     </section>
-    <section class="section-form">
+    <section class="section-form"> 
+        <div class="contenedor-form">
         <div class="contact-me">
-            <h1>CONTACTARME</h1>
+            <h1>CONTACTAME</h1>
+                <p>
+                    Podés escribirme a mi correo electrónico:
+                </p>
+                <p>
+                    <a href="">federico.rocuant20@outlook.com</a>
+                </p>
         </div>
         <div class="div-form">
             <h1>ESCRIBIME</h1>
-            <form action="">
-                <p>
-                    Nombre: <input type="text" name="nombrecompleto">
-                </p>
-            </form>
-            <form action="">
-                <p>
-                    Apellido: <input type="text" name="apellido">
-                </p>
-            </form>
+        <form>
+            <div class="name-surname">
+                <div class="form-info info-nombre">
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+                </div>
+                <div class="form-info">
+                <label for="lastname">Apellido</label>
+                <input type="text" id="lastname">
+                </div>
+            </div>
+            <div class="form-info">
+                <label for="email">Email</label>
+                <input type="email" name="" id="email">
+            </div>
+            <div class="form-info">
+                <label for="message">Mensaje</label>
+                <textarea name="" id="message" cols="30" rows="20"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
         </div>
+    </div>
     </section>
 </body>
 </html>
