@@ -203,4 +203,12 @@ main{
     font-size: 1.3em;
     margin-top: 20px;
 }
+/*.............................................formulario......................................*/
+.section-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
