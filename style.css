@@ -80,11 +80,12 @@ main{
     color: rgb(48, 76, 137);
     transition: 0,1;
 }
-.iconandroid{
+.profile-photo{
     display: flex;
     justify-content: flex-start;
     font-size: 400px;
     margin: 0px 100px 0px 0px;
+    width: 450px;
 }
 /*...........................................sección2........................................*/
 .misconocimientos{
