@@ -16,7 +16,7 @@ body{
     
     background-color: white;
 }
-ul{
+.header-list{
     display: flex;
     justify-content: flex-end;
     list-style: none;
@@ -65,17 +65,20 @@ main{
     padding-top: 10px;
 }
 .boton-loquehago{
-    padding: 15px;
-    border-radius: 10px;
+    padding: 15px 40px;
+    border-radius: 20px;
     display: flex;
     justify-content: left;
     align-items: center;
-}
-.link-loquehago{
-    display: flex;
     background-color: lightblue;
-    padding: 20px;
-    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    color: rgb(158, 183, 229);
+}
+.boton-loquehago:hover{
+    background-color: aquamarine;
+    color: rgb(48, 76, 137);
+    transition: 0,1;
 }
 .iconandroid{
     display: flex;
@@ -217,6 +220,7 @@ main{
     background-color: white;
     padding: 5%;
     border-radius: 15px;
+    border: 2px solid black;
 }
 .name-surname{
     display: flex;
@@ -232,6 +236,20 @@ input{
 }
 .info-nombre{
     margin-right: 4%;
+}
+.portfolio-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    background-color: rgb(110, 177, 243);
+}
+.list-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3%;
 }
 
 
