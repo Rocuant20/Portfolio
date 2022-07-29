@@ -42,9 +42,6 @@ main{
     display: flex;
     flex-direction: row;
 } */
-.main-items{
-    /* margin-top: 100px; */
-}
 .principal{
     padding-left: 30%;
     padding-top: 18%;
