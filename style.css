@@ -13,7 +13,6 @@ body{
     padding: 1.8%;
     box-sizing: border-box;
     box-shadow: 0px 2px 20px 0px rgb(214, 212, 212);
-    
     background-color: white;
 }
 .header-list{
@@ -104,6 +103,7 @@ main{
 }
 .contenedoricon:hover{
     border: 1px solid lightseagreen;
+    transform: scale(1.2);
 }
 .contenedoricon{
     display: flex;
@@ -115,6 +115,8 @@ main{
     background-color: white;
     padding: 20%;
     border: 1px solid transparent;
+    transition: 0.3s;
+    /* transform: scale(0.9); */
 }
 .skillgrid-first{
     display: flex;
@@ -211,6 +213,12 @@ main{
     padding: 10%;
     background-color: rgb(241, 241, 241);
     font-size: 1.5em;
+}
+.social-network{
+    padding-top: 40px;
+}
+.social-network-links{
+    list-style: none;
 }
 .contenedor-form{
     display: flex;
